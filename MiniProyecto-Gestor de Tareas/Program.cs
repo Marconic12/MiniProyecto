@@ -20,7 +20,7 @@ namespace GestorTareasFuncional
                 Console.WriteLine("2. Listar tareas");
                 Console.WriteLine("3. Completar tarea");
                 Console.WriteLine("4. Eliminar tarea");
-                Console.WriteLine("0. Salir");
+                Console.WriteLine("5. Salir");
                 Console.Write("Seleccione una opción: ");
 
                 // Validación de entrada
@@ -45,7 +45,7 @@ namespace GestorTareasFuncional
                     case 4:
                         EliminarTarea();
                         break;
-                    case 0:
+                    case 5:
                         Console.WriteLine(" Saliendo del gestor...");
                         break;
                     default:
