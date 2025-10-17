@@ -58,6 +58,24 @@ namespace GestorTareasFuncional
             } while (opcion != 0);
         }
 
-        
+        static void ListarTareas()
+        {
+            Console.Clear();
+            Console.WriteLine("=== LISTA DE TAREAS ===");
+
+            if (descripciones.Count == 0)
+            {
+                Console.WriteLine("No hay tareas registradas.");
+                return;
+            }
+
+            for (int i = 0; i < descripciones.Count; i++)
+            {
+                string estado = completadas[i] ? "✅ Completada" : "Pendiente";
+                Console.WriteLine($"{i + 1}. {descripciones[i]} - Vence: {fechas[i]:yyyy-MM-dd} - {estado}");
+            }
+        }
+
+
     }
 }
