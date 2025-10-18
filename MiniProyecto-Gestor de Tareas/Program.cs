@@ -69,11 +69,11 @@ namespace GestorTareasFuncional
                 descripciones.RemoveAt(num - 1);
                 fechas.RemoveAt(num - 1);
                 completadas.RemoveAt(num - 1);
-                Console.WriteLine("🗑 Tarea eliminada correctamente.");
+                Console.WriteLine(" Tarea eliminada correctamente.");
             }
             else
             {
-                Console.WriteLine("⚠ Número de tarea no válido.");
+                Console.WriteLine(" Número de tarea no válido.");
             }
         }
     }

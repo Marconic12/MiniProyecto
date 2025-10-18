@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniProyecto-Gestor de Tareas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9270e915b654aa0282ec08f5cd3a5c8343e31dde")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1d8993d90b0db7f265c68aca4112c4f9aedcd72")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniProyecto-Gestor de Tareas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniProyecto-Gestor de Tareas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
