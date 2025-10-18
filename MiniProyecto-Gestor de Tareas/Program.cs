@@ -71,6 +71,19 @@ namespace GestorTareasFuncional
                 completadas.RemoveAt(num - 1);
                 Console.WriteLine(" Tarea eliminada correctamente.");
             }
+        }
+        static void CompletarTarea()
+        {
+            ListarTareas();
+
+            if (descripciones.Count == 0) return;
+
+            Console.Write("\nIngrese el número de la tarea a completar: ");
+            if (int.TryParse(Console.ReadLine(), out int num) && num >= 1 && num <= descripciones.Count)
+            {
+                completadas[num - 1] = true;
+                Console.WriteLine(" Tarea marcada como completada.");
+            }
             else
             {
                 Console.WriteLine(" Número de tarea no válido.");
@@ -81,5 +94,7 @@ namespace GestorTareasFuncional
            
 
         
+    
+
     
 
