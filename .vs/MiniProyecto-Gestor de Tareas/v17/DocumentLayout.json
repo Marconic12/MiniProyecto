@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\juanp\\OneDrive\\Escritorio\\SEMESTRE II\\Plataformas\\S7\\MiniProyecto-Gestor de Tareas\\",
+  "WorkspaceRootPath": "C:\\Users\\saave\\OneDrive\\Documentos\\Proyecto Plataformas de colab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9442DCDB-C566-4886-93DF-C8B60F6DB078}|MiniProyecto-Gestor de Tareas\\MiniProyecto-Gestor de Tareas.csproj|c:\\users\\juanp\\onedrive\\escritorio\\semestre ii\\plataformas\\s7\\miniproyecto-gestor de tareas\\miniproyecto-gestor de tareas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9442DCDB-C566-4886-93DF-C8B60F6DB078}|MiniProyecto-Gestor de Tareas\\MiniProyecto-Gestor de Tareas.csproj|c:\\users\\saave\\onedrive\\documentos\\proyecto plataformas de colab\\miniproyecto-gestor de tareas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9442DCDB-C566-4886-93DF-C8B60F6DB078}|MiniProyecto-Gestor de Tareas\\MiniProyecto-Gestor de Tareas.csproj|solutionrelative:miniproyecto-gestor de tareas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,20 +14,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\SEMESTRE II\\Plataformas\\S7\\MiniProyecto-Gestor de Tareas\\MiniProyecto-Gestor de Tareas\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\saave\\OneDrive\\Documentos\\Proyecto Plataformas de colab\\MiniProyecto-Gestor de Tareas\\Program.cs",
               "RelativeDocumentMoniker": "MiniProyecto-Gestor de Tareas\\Program.cs",
-              "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\SEMESTRE II\\Plataformas\\S7\\MiniProyecto-Gestor de Tareas\\MiniProyecto-Gestor de Tareas\\Program.cs",
+              "ToolTip": "C:\\Users\\saave\\OneDrive\\Documentos\\Proyecto Plataformas de colab\\MiniProyecto-Gestor de Tareas\\Program.cs",
               "RelativeToolTip": "MiniProyecto-Gestor de Tareas\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T19:40:36.993Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }

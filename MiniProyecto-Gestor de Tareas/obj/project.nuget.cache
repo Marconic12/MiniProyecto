@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "dgPoDxrnzX0=",
   "success": true,
   "projectFilePath": "C:\\Users\\ramce\\OneDrive\\Documentos\\Practica1610\\MiniProyecto\\MiniProyecto-Gestor de Tareas\\MiniProyecto-Gestor de Tareas.csproj",
+=======
+  "dgSpecHash": "WIGNRs8fkVM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\saave\\OneDrive\\Documentos\\Proyecto Plataformas de colab\\MiniProyecto-Gestor de Tareas\\MiniProyecto-Gestor de Tareas.csproj",
+>>>>>>> ListarTareas
   "expectedPackageFiles": [],
   "logs": []
 }
