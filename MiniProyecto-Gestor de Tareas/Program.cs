@@ -57,42 +57,25 @@ namespace GestorTareasFuncional
 
             } while (opcion != 0);
         }
-        static void EliminarTarea()
+
+        static void AgregarTarea()
         {
-            ListarTareas();
+            Console.Clear();
+            Console.WriteLine("=== AGREGAR TAREA ===");
 
-            if (descripciones.Count == 0) return;
+            Console.Write("Descripción: ");
+            string descripcion = Console.ReadLine();
 
-            Console.Write("\nIngrese el número de la tarea a eliminar: ");
-            if (int.TryParse(Console.ReadLine(), out int num) && num >= 1 && num <= descripciones.Count)
+            Console.Write("Fecha de vencimiento (yyyy-mm-dd): ");
+            if (!DateTime.TryParse(Console.ReadLine(), out DateTime fecha))
             {
-                descripciones.RemoveAt(num - 1);
-                fechas.RemoveAt(num - 1);
-                completadas.RemoveAt(num - 1);
-                Console.WriteLine(" Tarea eliminada correctamente.");
+                Console.WriteLine(" Fecha inválida. No se agregó la tarea.");
+                return;
             }
+
+            descripciones.Add(descripcion);
+            fechas.Add(fecha);
+            completadas.Add(false);
+
+            Console.WriteLine(" Tarea agregada correctamente.");
         }
-        static void CompletarTarea()
-        {
-            ListarTareas();
-
-            if (descripciones.Count == 0) return;
-
-            Console.Write("\nIngrese el número de la tarea a completar: ");
-            if (int.TryParse(Console.ReadLine(), out int num) && num >= 1 && num <= descripciones.Count)
-            {
-                completadas[num - 1] = true;
-                Console.WriteLine(" Tarea marcada como completada.");
-            }
-            else
-            {
-                Console.WriteLine(" Número de tarea no válido.");
-            }
-        }
-
-    }
-}
-    
-
-    
-
