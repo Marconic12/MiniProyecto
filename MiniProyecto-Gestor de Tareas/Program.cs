@@ -75,8 +75,11 @@ namespace GestorTareasFuncional
             {
                 Console.WriteLine(" Número de tarea no válido.");
             }
-        }
-    }
+        }
+    }
 }
+           
+
+        
     
 
