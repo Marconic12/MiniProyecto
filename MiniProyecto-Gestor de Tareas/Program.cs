@@ -130,11 +130,11 @@ namespace GestorTareasFuncional
             if (int.TryParse(Console.ReadLine(), out int num) && num >= 1 && num <= descripciones.Count)
             {
                 completadas[num - 1] = true;
-                Console.WriteLine("✅ Tarea marcada como completada.");
+                Console.WriteLine(" Tarea marcada como completada.");
             }
             else
             {
-                Console.WriteLine("⚠️ Número de tarea no válido.");
+                Console.WriteLine(" Número de tarea no válido.");
             }
         }
 
