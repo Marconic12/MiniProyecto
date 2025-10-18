@@ -80,8 +80,8 @@ namespace GestorTareasFuncional
             Console.WriteLine(" Tarea agregada correctamente.");
         }
 
-       
-    
+
+
 
         static void ListarTareas()
         {
@@ -100,7 +100,31 @@ namespace GestorTareasFuncional
                 Console.WriteLine($"{i + 1}. {descripciones[i]} - Vence: {fechas[i]:yyyy-MM-dd} - {estado}");
             }
         }
+        static void EliminarTarea()
+        {
+            ListarTareas();
 
-
+            if (descripciones.Count == 0)
+            {
+                return;
+            }
+            Console.Write("\nIngrese el número de la tarea a eliminar: ");
+            if (int.TryParse(Console.ReadLine(), out int num) && num >= 1 && num <= descripciones.Count)
+            {
+                descripciones.RemoveAt(num - 1);
+                fechas.RemoveAt(num - 1);
+                completadas.RemoveAt(num - 1);
+                Console.WriteLine(" Tarea eliminada correctamente.");
+            }
+            else
+            {
+                Console.WriteLine(" Número de tarea no válido.");
+            }
+        }
     }
 }
+        
+    
+
+    
+
