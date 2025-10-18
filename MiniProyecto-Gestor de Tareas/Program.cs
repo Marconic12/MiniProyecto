@@ -93,7 +93,7 @@ namespace GestorTareasFuncional
 
             for (int i = 0; i < descripciones.Count; i++)
             {
-                string estado = completadas[i] ? "✅ Completada" : "Pendiente";
+                string estado = completadas[i] ? " Completada" : "Pendiente";
                 Console.WriteLine($"{i + 1}. {descripciones[i]} - Vence: {fechas[i]:yyyy-MM-dd} - {estado}");
             }
         }
@@ -118,15 +118,7 @@ namespace GestorTareasFuncional
                 Console.WriteLine(" Número de tarea no válido.");
             }
         }
-    }
-}
-        
-    
-
-    
-
-            } while (opcion != 0);
-        }
+ 
 
         static void CompletarTarea()
         {
