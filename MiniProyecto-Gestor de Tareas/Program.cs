@@ -80,9 +80,6 @@ namespace GestorTareasFuncional
             Console.WriteLine(" Tarea agregada correctamente.");
         }
 
-
-
-
         static void ListarTareas()
         {
             Console.Clear();
